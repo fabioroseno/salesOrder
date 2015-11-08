@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/SalesOrder">
+	
+	<!-- SQL Server -->
+    <Resource 	auth="Container"
+    			driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+    			url="jdbc:sqlserver://localhost:1433;databaseName=salesOrder"
+    			type="javax.sql.DataSource"
+    			name="jdbc/salesOrder"
+   				username="sa"
+    			password="ffrs2708"
+   				maxActive="20"
+    			maxIdle="10"
+    			maxWait="-1"/>
+</Context>
